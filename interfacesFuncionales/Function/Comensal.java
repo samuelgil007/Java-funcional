@@ -1,4 +1,4 @@
-package interfacesFuncionales;
+package interfacesFuncionales.Function;
 
 public class Comensal {
 

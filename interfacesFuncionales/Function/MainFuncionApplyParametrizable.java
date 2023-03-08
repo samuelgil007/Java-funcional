@@ -1,4 +1,4 @@
-package interfacesFuncionales;
+package interfacesFuncionales.Function;
 
 import Comensal;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.function.Function;
 
 //Un metodo que nos devuelve una lista de los atributos que queramos!
-public class MainFuncionParametrizable {
+public class MainFuncionApplyParametrizable {
 
     public static void main(String[] args) {
         List<Comensal> lisaComensales = Arrays.asList(
