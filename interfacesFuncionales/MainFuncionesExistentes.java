@@ -1,7 +1,9 @@
 package interfacesFuncionales;
 
+import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -24,6 +26,17 @@ public class MainFuncionesExistentes {
         //Le damos dos valores y nos devuelve un booleano
         BiPredicate<Integer,Integer> bp = (x,y)-> x < y;
         System.out.println(bp.test(2,3));
+
+        //Le damos un valor y no devuelve nada, es void
+        Consumer<String> cons = (x) -> System.out.println(x.toUpperCase());
+        cons.accept("Lucas");
+
+        //Le damos dos valores y no devuelve nada, es void
+        BiConsumer<Double,Double> biConsumer = (num1,num2)->{
+            double mult = num1 * num2;
+            System.out.println("La multiplicacion es: "+ mult);
+        };
+        biConsumer.accept(15.2,52.25);
     }
 
 }
