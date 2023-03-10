@@ -1,4 +1,4 @@
-package interfacesFuncionales.BiFunction;
+package InterfacesFuncionales.BiFunction;
 
 import java.util.Arrays;
 import java.util.List;

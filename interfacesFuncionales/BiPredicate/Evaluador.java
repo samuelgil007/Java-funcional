@@ -1,4 +1,4 @@
-package interfacesFuncionales.BiPredicate;
+package InterfacesFuncionales.BiPredicate;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package interfacesFuncionales.BiConsumer;
+package InterfacesFuncionales.BiConsumer;
 
 import java.util.HashMap;
 import java.util.Iterator;

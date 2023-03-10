@@ -1,4 +1,4 @@
-package interfacesFuncionales.Comparator;
+package InterfacesFuncionales.Comparator;
 
 import java.util.Date;
 

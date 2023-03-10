@@ -1,4 +1,4 @@
-package interfacesFuncionales.Function;
+package InterfacesFuncionales.Function;
 
 import Comensal;
 import java.util.ArrayList;

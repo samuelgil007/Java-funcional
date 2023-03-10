@@ -1,4 +1,4 @@
-package interfacesFuncionales;
+package InterfacesFuncionales;
 
 import java.util.ArrayList;
 import java.util.Arrays;

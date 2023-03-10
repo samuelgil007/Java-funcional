@@ -1,4 +1,4 @@
-package interfacesFuncionales.BiFunction;
+package InterfacesFuncionales.BiFunction;
 
 public class Empleado {
 

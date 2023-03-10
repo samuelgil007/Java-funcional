@@ -1,4 +1,4 @@
-package interfacesFuncionales.BiPredicate;
+package InterfacesFuncionales.BiPredicate;
 
 public class Empleado {
 
