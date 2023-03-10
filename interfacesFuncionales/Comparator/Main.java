@@ -39,6 +39,7 @@ public class Main {
             }
         });*/
 
+        //nos ayuda a organizar listas por medio de lambda
         Collections.sort(personas,(o1, o2) -> o1.getIdPersona() - o2.getIdPersona());
 
         System.out.println("Lista de personas ordenadas por id : "+personas.toString());
