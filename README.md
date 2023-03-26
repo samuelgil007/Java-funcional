@@ -1,2 +1,2 @@
-# Java-funcional
+# Java-functional
 Functional java course notebook
