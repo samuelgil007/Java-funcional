@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
 
 public class ConcurrenceLambdas {
-
+    //Lo ejecuta un hilo creado
     static Runnable printerSum = () -> {
         long r = 0;
         System.out.println(Thread.currentThread().getName());
@@ -14,7 +14,7 @@ public class ConcurrenceLambdas {
         }
         System.out.println("Total: " + r);
     };
-
+    //Lo ejecuta un hilo creado
     static Callable<Long> getSum = () -> {
         long r = 0;
         System.out.println(Thread.currentThread().getName());
@@ -25,6 +25,7 @@ public class ConcurrenceLambdas {
     };
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
+        //Aqui lo ejecuta el hilo main
         System.out.println(Thread.currentThread().getName());
         var exec = Executors.newSingleThreadExecutor();
 
